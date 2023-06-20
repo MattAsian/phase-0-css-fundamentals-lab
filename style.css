@@ -2,4 +2,52 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+
+}
+
+h1 {
+  text-align:center;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 900px;
+
+}
+
+#details {
+  background-color: rgba(38, 71, 38, 0.86);
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+nav > a {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(38, 71, 38, 0.86);
+
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+ }
+
+ #details {
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+#details > div {
+  text-align: center;
+  width: 25%;
 }
